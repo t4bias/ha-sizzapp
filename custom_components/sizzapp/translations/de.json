@@ -1,0 +1,49 @@
+{
+  "config": {
+    "step": {
+      "reconfigure": {
+        "title": "SizzApp-Gerät neu konfigurieren",
+        "description": "Aktualisiere deinen SizzApp-Tracking-Link.",
+        "data": {
+          "share_url": "Tracking-Link"
+        },
+        "data_description": {
+          "share_url": "Der Tracking-Link aus der SizzApp-App."
+        }
+      },
+      "user": {
+        "title": "SizzApp-Gerät hinzufügen",
+        "description": "Gib deinen SizzApp-Tracking-Link ein. Du kannst ihn in der \"SizzApp\" Smartphone-App unter den \"Tracking-Links\" erstellen.",
+        "data": {
+          "share_url": "Tracking-Link"
+        },
+        "data_description": {
+          "share_url": "Der Tracking-Link aus der SizzApp-App."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zur SizzApp-API fehlgeschlagen. Bitte überprüfe deine Internetverbindung.",
+      "invalid_url": "Ungültiger Tracking-Link. Bitte stelle sicher, dass du den vollständigen Link aus der SizzApp-App kopiert hast.",
+      "name_required": "Der Gerätename darf nicht leer sein."
+    },
+    "abort": {
+      "already_configured": "Dieses SizzApp-Gerät ist bereits konfiguriert."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "speed": {
+        "name": "Geschwindigkeit"
+      },
+      "last_update": {
+        "name": "Letzte Aktualisierung"
+      }
+    },
+    "binary_sensor": {
+      "in_trip": {
+        "name": "Auf Tour"
+      }
+    }
+  }
+}

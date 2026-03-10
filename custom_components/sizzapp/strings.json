@@ -1,0 +1,49 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "This SizzApp device is already configured."
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to the SizzApp API. Please check your internet connection.",
+      "invalid_url": "Invalid tracking link. Please make sure you copied the full link from the SizzApp app.",
+      "name_required": "Device name cannot be empty."
+    },
+    "step": {
+      "reconfigure": {
+        "data": {
+          "share_url": "Tracking Link"
+        },
+        "data_description": {
+          "share_url": "The tracking link from the SizzApp app."
+        },
+        "description": "Update your SizzApp tracking link.",
+        "title": "Reconfigure SizzApp Device"
+      },
+      "user": {
+        "data": {
+          "share_url": "Tracking Link"
+        },
+        "data_description": {
+          "share_url": "The tracking link from the SizzApp app."
+        },
+        "description": "Enter your SizzApp tracking link. You can create it in the \"SizzApp\" smartphone app under \"Tracking Links\".",
+        "title": "Add SizzApp Device"
+      }
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "in_trip": {
+        "name": "In Trip"
+      }
+    },
+    "sensor": {
+      "last_update": {
+        "name": "Last Update"
+      },
+      "speed": {
+        "name": "Speed"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+rules:
+  # Bronze
+  action-setup:
+    status: exempt
+    comment: Integration does not provide any actions.
+  appropriate-polling:
+    status: done
+  brands:
+    status: exempt
+    comment: Brands entry will be added in a follow-up PR.
+  common-modules:
+    status: done
+  config-flow:
+    status: done
+  config-flow-test-coverage:
+    status: exempt
+    comment: Tests will be added in a follow-up PR.
+  dependency-transparency:
+    status: exempt
+    comment: No custom Python dependencies.
+  docs-actions:
+    status: exempt
+    comment: Integration does not provide any actions.
+  docs-high-level-description:
+    status: exempt
+    comment: Documentation will be added in a follow-up PR.
+  docs-installation-instructions:
+    status: exempt
+    comment: Documentation will be added in a follow-up PR.
+  docs-removal-instructions:
+    status: exempt
+    comment: Documentation will be added in a follow-up PR.
+  entity-event-setup:
+    status: exempt
+    comment: Entities do not use event listeners.
+  entity-unique-id:
+    status: done
+  has-entity-name:
+    status: done
+  log-when-unavailable:
+    status: done
+  runtime-data:
+    status: done
+  test-before-configure:
+    status: done
+  test-before-setup:
+    status: done
+  unique-config-entry:
+    status: done
