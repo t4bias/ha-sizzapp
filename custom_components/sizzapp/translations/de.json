@@ -24,7 +24,7 @@
     },
     "error": {
       "cannot_connect": "Verbindung zur SizzApp-API fehlgeschlagen. Bitte überprüfe deine Internetverbindung.",
-      "invalid_url": "Ungültiger Tracking-Link. Bitte stelle sicher, dass du den vollständigen Link aus der SizzApp-App kopiert hast.",
+      "invalid_url": "Ungültiger Tracking-Link. Bitte stelle sicher, dass du den vollständigen Link aus der SizzApp-App kopiert hast."
     },
     "abort": {
       "already_configured": "Dieses SizzApp-Gerät ist bereits konfiguriert."
