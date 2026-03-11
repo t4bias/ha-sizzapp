@@ -6,8 +6,7 @@ rules:
   appropriate-polling:
     status: done
   brands:
-    status: exempt
-    comment: Brands entry will be added in a follow-up PR.
+    status: done
   common-modules:
     status: done
   config-flow:
@@ -22,11 +21,9 @@ rules:
     status: exempt
     comment: Integration does not provide any actions.
   docs-high-level-description:
-    status: exempt
-    comment: Documentation will be added in a follow-up PR.
+    status: done
   docs-installation-instructions:
-    status: exempt
-    comment: Documentation will be added in a follow-up PR.
+    status: done
   docs-removal-instructions:
     status: exempt
     comment: Documentation will be added in a follow-up PR.
