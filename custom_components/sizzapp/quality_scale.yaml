@@ -25,8 +25,7 @@ rules:
   docs-installation-instructions:
     status: done
   docs-removal-instructions:
-    status: exempt
-    comment: Documentation will be added in a follow-up PR.
+    status: done
   entity-event-setup:
     status: exempt
     comment: Entities do not use event listeners.
