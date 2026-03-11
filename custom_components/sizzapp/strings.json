@@ -6,7 +6,6 @@
     "error": {
       "cannot_connect": "Unable to connect to the SizzApp API. Please check your internet connection.",
       "invalid_url": "Invalid tracking link. Please make sure you copied the full link from the SizzApp app.",
-      "name_required": "Device name cannot be empty."
     },
     "step": {
       "reconfigure": {
