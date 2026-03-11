@@ -30,14 +30,21 @@ Integrate your [SizzApp](https://sizzapp.com) tracked vehicles into [Home Assist
 
 ### Via HACS (recommended)
 
-1. Click the button below to add this repository directly to HACS:
+**Option A – One-click:**
+
+1. Click the button to open HACS and add this repository directly:
 
    [![Add to HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=t4bias&repository=ha-sizzapp&category=integration)
 
-2. Search for **SizzApp** in HACS and install it
+2. Click **Install** in the dialog that opens
 3. Restart Home Assistant
 
-> **Manual alternative:** Go to **HACS → Integrations** → click the three-dot menu → **Custom repositories**, add `https://github.com/t4bias/ha-sizzapp` as an **Integration**, then install.
+**Option B – Manually add the repository:**
+
+1. In HACS, go to **Integrations** → click the three-dot menu → **Custom repositories**
+2. Add `https://github.com/t4bias/ha-sizzapp` as category **Integration**
+3. Search for **SizzApp** in HACS and click **Install**
+4. Restart Home Assistant
 
 ### Manual
 
