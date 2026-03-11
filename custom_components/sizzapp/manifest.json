@@ -4,9 +4,9 @@
   "codeowners": ["@t4bias"],
   "config_flow": true,
   "documentation": "https://github.com/t4bias/ha-sizzapp",
-  "issue_tracker": "https://github.com/t4bias/ha-sizzapp/issues",
   "integration_type": "hub",
   "iot_class": "cloud_polling",
-  "version": "0.2.0",
-  "requirements": []
+  "issue_tracker": "https://github.com/t4bias/ha-sizzapp/issues",
+  "requirements": [],
+  "version": "0.2.0"
 }
