@@ -98,6 +98,15 @@ Verify your Home Assistant instance has internet access and can reach `api.sizza
 
 ---
 
+## Removal
+
+1. Go to **Settings → Devices & Services → SizzApp**
+2. Click the three-dot menu → **Delete**
+3. Restart Home Assistant
+4. If installed manually, remove the `custom_components/sizzapp` folder from your Home Assistant configuration directory
+
+---
+
 ## Disclaimer
 
 This integration is an unofficial, community-developed project and is not affiliated with or supported by SizzApp. Use at your own risk.
