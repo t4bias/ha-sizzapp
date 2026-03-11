@@ -1,6 +1,8 @@
 # SizzApp Home Assistant Integration
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
+[![Add to HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=t4bias&repository=ha-sizzapp&category=integration)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/t4bias)
 
 Integrate your [SizzApp](https://sizzapp.com) tracked vehicles into [Home Assistant](https://www.home-assistant.io/) using public tracking links — no account credentials required.
 
@@ -28,11 +30,14 @@ Integrate your [SizzApp](https://sizzapp.com) tracked vehicles into [Home Assist
 
 ### Via HACS (recommended)
 
-1. Open HACS in Home Assistant
-2. Go to **Integrations** → click the three-dot menu → **Custom repositories**
-3. Add `https://github.com/t4bias/ha-sizzapp` as an **Integration**
-4. Search for **SizzApp** and install it
-5. Restart Home Assistant
+1. Click the button below to add this repository directly to HACS:
+
+   [![Add to HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=t4bias&repository=ha-sizzapp&category=integration)
+
+2. Search for **SizzApp** in HACS and install it
+3. Restart Home Assistant
+
+> **Manual alternative:** Go to **HACS → Integrations** → click the three-dot menu → **Custom repositories**, add `https://github.com/t4bias/ha-sizzapp` as an **Integration**, then install.
 
 ### Manual
 
@@ -107,12 +112,20 @@ Verify your Home Assistant instance has internet access and can reach `api.sizza
 
 ---
 
-## Disclaimer
-
-This integration is an unofficial, community-developed project and is not affiliated with or supported by SizzApp. Use at your own risk.
-
----
-
 ## Contributing
 
 Pull requests and bug reports are welcome! Please open an issue at [github.com/t4bias/ha-sizzapp/issues](https://github.com/t4bias/ha-sizzapp/issues).
+
+---
+
+## Support
+
+If this integration saves you some time and you'd like to say thanks:
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/t4bias)
+
+---
+
+## Disclaimer
+
+This integration is an unofficial, community-developed project and is not affiliated with or supported by SizzApp. Use at your own risk.
