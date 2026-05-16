@@ -11,6 +11,7 @@ Integrate your [SizzApp](https://sizzapp.com) tracked vehicles into [Home Assist
 ## Features
 
 - 📍 **Live GPS tracking** via HA device tracker
+- 🖼️ **Vehicle image** exposed as `entity_picture` on the device tracker
 - 🚗 **Trip detection** (binary sensor: in trip / not in trip)
 - 💨 **Speed sensor**
 - 🕒 **Last update timestamp**
