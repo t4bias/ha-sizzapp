@@ -1,6 +1,6 @@
 # SizzApp Home Assistant Integration
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)
 [![Add to HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=t4bias&repository=ha-sizzapp&category=integration)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/t4bias)
 
@@ -20,6 +20,13 @@ Integrate your [SizzApp](https://sizzapp.com) tracked vehicles into [Home Assist
 
 ---
 
+## Screenshots
+
+![Entities](docs/entities.png)
+![Map](docs/map.png)
+
+---
+
 ## Requirements
 
 - A SizzApp account with at least one active tracking link
@@ -31,21 +38,22 @@ Integrate your [SizzApp](https://sizzapp.com) tracked vehicles into [Home Assist
 
 ### Via HACS (recommended)
 
+This integration is part of the **official HACS store** — no need to add a custom repository.
+
 **Option A – One-click:**
 
-1. Click the button to open HACS and add this repository directly:
+1. Click the button below to open HACS and install directly:
 
    [![Add to HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=t4bias&repository=ha-sizzapp&category=integration)
 
 2. Click **Install** in the dialog that opens
 3. Restart Home Assistant
 
-**Option B – Manually add the repository:**
+**Option B – Search in HACS:**
 
-1. In HACS, go to **Integrations** → click the three-dot menu → **Custom repositories**
-2. Add `https://github.com/t4bias/ha-sizzapp` as category **Integration**
-3. Search for **SizzApp** in HACS and click **Install**
-4. Restart Home Assistant
+1. In HACS, go to **Integrations**
+2. Search for **SizzApp** and click **Install**
+3. Restart Home Assistant
 
 ### Manual
 
