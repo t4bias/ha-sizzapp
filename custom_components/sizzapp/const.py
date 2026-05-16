@@ -8,6 +8,7 @@ CONF_SHARE_URL = "share_url"
 # API
 API_BASE_URL = "https://api.sizzapp.com/app/location_sharing/info"
 SHARE_BASE_URL = "https://sizzapp.com/location/"
+IMAGE_BASE_URL = "https://files.sizzapp.com/units_small/"
 
 # Update interval in seconds
 DEFAULT_SCAN_INTERVAL = 30

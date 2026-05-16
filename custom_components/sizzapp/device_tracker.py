@@ -9,7 +9,7 @@ from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
 from homeassistant.helpers.update_coordinator import CoordinatorEntity
 
 from . import SizzAppConfigEntry
-from .const import DATA_LAT, DATA_LNG, DOMAIN
+from .const import DATA_IMAGE_FILENAME, DATA_LAT, DATA_LNG, DOMAIN, IMAGE_BASE_URL
 from .coordinator import SizzAppCoordinator
 
 
@@ -72,3 +72,11 @@ class SizzAppTrackerEntity(CoordinatorEntity[SizzAppCoordinator], TrackerEntity)
     def source_type(self) -> SourceType:
         """Return the source type of the device tracker."""
         return SourceType.GPS
+
+    @property
+    def entity_picture(self) -> str | None:
+        """Return the URL of the tracked unit image."""
+        image_filename = self.coordinator.data.get(DATA_IMAGE_FILENAME)
+        if not image_filename:
+            return None
+        return f"{IMAGE_BASE_URL}{image_filename}"
