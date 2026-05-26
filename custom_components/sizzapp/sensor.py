@@ -43,9 +43,11 @@ SENSOR_DESCRIPTIONS: tuple[SizzAppSensorEntityDescription, ...] = (
     SizzAppSensorEntityDescription(
         key="voltage",
         translation_key="voltage",
+        icon="mdi:car-battery",
         native_unit_of_measurement=UnitOfElectricPotential.VOLT,
         device_class=SensorDeviceClass.VOLTAGE,
         state_class=SensorStateClass.MEASUREMENT,
+        suggested_display_precision=2,
         value_fn=lambda data: data.get(DATA_VOLTAGE),
     ),
     SizzAppSensorEntityDescription(
