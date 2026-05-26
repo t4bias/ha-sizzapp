@@ -12,7 +12,7 @@ from homeassistant.components.sensor import (
     SensorEntityDescription,
     SensorStateClass,
 )
-from homeassistant.const import UnitOfSpeed
+from homeassistant.const import UnitOfElectricPotential, UnitOfSpeed
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.device_registry import DeviceInfo
 from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
@@ -20,7 +20,7 @@ from homeassistant.helpers.update_coordinator import CoordinatorEntity
 from homeassistant.util import dt as dt_util
 
 from . import SizzAppConfigEntry
-from .const import DATA_DT_UNIT, DATA_SPEED, DOMAIN
+from .const import DATA_DT_UNIT, DATA_SPEED, DATA_VOLTAGE, DOMAIN
 from .coordinator import SizzAppCoordinator
 
 
@@ -39,6 +39,14 @@ SENSOR_DESCRIPTIONS: tuple[SizzAppSensorEntityDescription, ...] = (
         device_class=SensorDeviceClass.SPEED,
         state_class=SensorStateClass.MEASUREMENT,
         value_fn=lambda data: data.get(DATA_SPEED),
+    ),
+    SizzAppSensorEntityDescription(
+        key="voltage",
+        translation_key="voltage",
+        native_unit_of_measurement=UnitOfElectricPotential.VOLT,
+        device_class=SensorDeviceClass.VOLTAGE,
+        state_class=SensorStateClass.MEASUREMENT,
+        value_fn=lambda data: data.get(DATA_VOLTAGE),
     ),
     SizzAppSensorEntityDescription(
         key="last_update",

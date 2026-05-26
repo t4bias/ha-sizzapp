@@ -17,6 +17,7 @@ DEFAULT_SCAN_INTERVAL = 30
 DATA_UNIT_ID = "unit_id"
 DATA_NAME = "name"
 DATA_SPEED = "speed"
+DATA_VOLTAGE = "voltage"
 DATA_LAT = "lat"
 DATA_LNG = "lng"
 DATA_IN_TRIP = "in_trip"
