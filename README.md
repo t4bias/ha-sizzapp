@@ -14,6 +14,7 @@ Integrate your [SizzApp](https://sizzapp.com) tracked vehicles into [Home Assist
 - 🖼️ **Vehicle image** exposed as `entity_picture` on the device tracker
 - 🚗 **Trip detection** (binary sensor: in trip / not in trip)
 - 💨 **Speed sensor**
+- 🔋 **Battery voltage sensor**
 - 🕒 **Last update timestamp**
 - 🔄 **Automatic polling** every 30 seconds
 - 🛡️ **No password required** – uses SizzApp's share link feature
@@ -91,6 +92,7 @@ Depending on your device, the following entities will be created:
 | Entity | Description |
 |---|---|
 | `sensor.<name>_speed` | Current speed in km/h |
+| `sensor.<name>_voltage` | Battery voltage in V |
 | `sensor.<name>_last_update` | Timestamp of the last data update from the API *(disabled by default)* |
 
 ### Binary Sensors
