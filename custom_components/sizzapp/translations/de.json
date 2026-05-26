@@ -35,6 +35,9 @@
       "speed": {
         "name": "Geschwindigkeit"
       },
+      "voltage": {
+        "name": "Batteriespannung"
+      },
       "last_update": {
         "name": "Letzte Aktualisierung"
       }

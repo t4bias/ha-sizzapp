@@ -42,6 +42,9 @@
       },
       "speed": {
         "name": "Speed"
+      },
+      "voltage": {
+        "name": "Battery Voltage"
       }
     }
   }
